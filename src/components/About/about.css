@@ -1,0 +1,129 @@
+
+
+.article-title {
+    font-size: 2.4rem;
+    position: relative;
+    font-weight: 900;
+}
+
+.title {
+        color: var(--white-1);
+        background: var(--onyx);
+        font-size: var(--fs-8);
+        font-weight: var(--fw-300);
+        width: max-content;
+        padding: 3px 12px;
+        border-radius: 8px;
+}
+
+.article-title::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background: linear-gradient(
+        to right, 
+        hsl(45, 100%, 72%), 
+        hsl(35, 100%, 68%)
+      );
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 10;
+}
+
+.about-text {
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 84%);
+    font-weight: 300;
+}
+
+.rfm-marquee {
+    margin: 0 3rem;
+}
+
+.marque {
+    padding: 2rem 0;
+}
+
+.service-title {
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.bg-background {
+    background: linear-gradient(
+        to bottom right, 
+        hsla(240, 1%, 18%, 0.251) 0%, 
+        hsla(240, 2%, 11%, 0) 100%
+      ), hsl(240, 2%, 13%);
+      box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+      border: 1px solid #3C3C3C;
+      border-radius: 1.6rem;
+}
+
+.service-item {
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.service-item-text {
+    color: var(--light-gray);
+}
+
+.service-item-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0.7rem;
+}
+
+@media (min-width: 580px) {
+    .article-title {
+        font-size: 3rem;
+    }
+
+    .article-title::after {
+        width: 40px;
+        height: 5px;
+        bottom: -15px;
+    }
+
+    .marque {
+        padding: 4rem 0;
+    }
+
+    .service-item {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 0 30px;
+      }
+
+      .magicCard {
+        height: 304px;
+      }
+
+      .z-30 {
+        width: 100%;
+      }
+}
+
+@media (min-width: 1024px) {
+    .marque {
+        padding: 5rem 0;
+    }
+
+    .article-title::after {
+        bottom: -20px;
+    }
+
+    .magicCard {
+        height: 140px;
+    }
+}
