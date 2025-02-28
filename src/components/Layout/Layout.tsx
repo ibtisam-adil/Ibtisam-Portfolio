@@ -1,6 +1,8 @@
-import React from 'react';
+import { IonIcon } from '@ionic/react';
+import { mailOutline, phonePortraitOutline, logoLinkedin, locationOutline, chevronDown, logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
+
 import './layout.css';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 const Layout = () => {
     const cheveron = () => {
     const sidebar = document.querySelector('.sidebar');
@@ -26,7 +28,8 @@ const Layout = () => {
           </div>
           <span className='cheveron c-s-contact'>Show Contacts</span>
 
-            <ion-icon onClick={cheveron} className="cheveron" name="chevron-down"></ion-icon>
+          <IonIcon icon={chevronDown} onClick={cheveron} className="cheveron" />
+
 
         </div>
 
@@ -39,7 +42,8 @@ const Layout = () => {
             <li className="contact-item flex gap-6 items-center">
 
               <div className="icon-box">
-                <ion-icon className="contact-icons" name="mail-outline"></ion-icon>
+              <IonIcon icon={mailOutline} className="contact-icons" />
+
               </div>
 
               <div className="contact-info">
@@ -53,7 +57,8 @@ const Layout = () => {
             <li className="contact-item flex gap-8 items-center">
 
               <div className="icon-box">
-                <ion-icon className="contact-icons" name="phone-portrait-outline"></ion-icon>
+              <IonIcon icon={phonePortraitOutline} className="contact-icons" />
+
               </div>
 
               <div className="contact-info">
@@ -67,7 +72,8 @@ const Layout = () => {
             <li className="contact-item flex gap-8 items-center">
 
               <div className="icon-box">
-                <ion-icon className="contact-icons" name="logo-linkedin"></ion-icon>
+              <IonIcon icon={logoLinkedin} className="contact-icons" />
+
               </div>
 
               <div className="contact-info">
@@ -80,7 +86,8 @@ const Layout = () => {
             <li className="contact-item flex gap-8 items-center">
 
               <div className="icon-box">
-                <ion-icon className="contact-icons" name="location-outline"></ion-icon>
+              <IonIcon icon={locationOutline} className="contact-icons" />
+
               </div>
 
               <div className="contact-info">
@@ -99,19 +106,22 @@ const Layout = () => {
 
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
+              <IonIcon icon={logoFacebook} />
+
               </a>
             </li>
 
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
+              <IonIcon icon={logoTwitter} />
+
               </a>
             </li>
 
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
+              <IonIcon icon={logoInstagram} />
+
               </a>
             </li>
 

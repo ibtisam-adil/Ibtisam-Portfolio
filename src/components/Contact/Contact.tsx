@@ -1,5 +1,7 @@
+import { IonIcon } from '@ionic/react';
 import Navbar from '../Navbar/Navbar';
 import './contact.css';
+import { paperPlane } from 'ionicons/icons';
 
 const Contact = () => {
     return (
@@ -42,8 +44,8 @@ const Contact = () => {
               />
             </div>
             <textarea name="message" className="form-input" placeholder="Your Message" required ></textarea>
-            <button class="form-btn" type="submit">
-              <ion-icon name="paper-plane"></ion-icon>
+            <button className="form-btn" type="submit">
+            <IonIcon icon={paperPlane} />
               <span>Send Message</span>
             </button>
           </form>

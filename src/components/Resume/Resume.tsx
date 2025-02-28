@@ -1,5 +1,7 @@
+import { IonIcon } from '@ionic/react';
 import Navbar from '../Navbar/Navbar';
 import './resume.css';
+import { bookOutline } from 'ionicons/icons';
 
 const Resume = () => {
   return (
@@ -13,7 +15,7 @@ const Resume = () => {
 
       <div className="title-wrapper">
         <div className="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+          <IonIcon icon={bookOutline} />
         </div>
 
         <h3 className="h3">Education</h3>
@@ -43,7 +45,7 @@ const Resume = () => {
 
       <div className="title-wrapper">
         <div className="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+        <IonIcon icon={bookOutline} />
         </div>
 
         <h3 className="h3">Experience</h3>

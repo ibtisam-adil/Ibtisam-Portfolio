@@ -9,6 +9,8 @@ import img3 from '../../assets/images/project-3.jpg'
 import img2 from '../../assets/images/project-2.png'
 import img1 from '../../assets/images/project-1.jpg'
 import Navbar from '../Navbar/Navbar'
+import { IonIcon } from '@ionic/react'
+import { chevronDown, eyeOutline } from 'ionicons/icons'
 
 const Portfolio = () => {
   return (
@@ -47,7 +49,7 @@ const Portfolio = () => {
           <div className="select-value" data-selecct-value>Select category</div>
 
           <div className="select-icon">
-            <ion-icon name="chevron-down"></ion-icon>
+            <IonIcon icon={chevronDown} />
           </div>
 
         </button>
@@ -81,7 +83,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img1} alt="finance" loading="lazy" />
@@ -99,7 +101,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+                <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img2} alt="orizon" loading="lazy" />
@@ -117,7 +119,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img3} alt="fundo" loading="lazy" />
@@ -135,7 +137,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img4} alt="brawlhalla" loading="lazy" />
@@ -153,7 +155,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img5} alt="dsm." loading="lazy" />
@@ -171,7 +173,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img6} alt="metaspark" loading="lazy" />
@@ -189,7 +191,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img7} alt="summary" loading="lazy" />
@@ -207,7 +209,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img8} alt="task manager" loading="lazy" />
@@ -225,7 +227,7 @@ const Portfolio = () => {
 
             <figure className="project-img">
               <div className="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <IonIcon icon={eyeOutline} />
               </div>
 
               <img src={img9} alt="arrival" loading="lazy" />
