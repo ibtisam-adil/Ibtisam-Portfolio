@@ -17,17 +17,11 @@ const About = () => {
     </header>
     <section className="about-text flex flex-col gap-6">
       <p>
-        A self-motivated and goal-oriented Fullstack Developer with a strong drive for continuous learning, rapid
-        adaptation,
-        and effective teamwork, showcasing the ability to excel in diverse settings and perform under pressure.
+       I am Ibtisam Adil, a programmer with experience in C++ and web development. I have worked on games, websites, and other software projects, always trying to make things better and more useful.
       </p>
 
       <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
+      I have built web apps using React, Tailwind, and JavaScript and created real-time graphics projects with SDL/OpenGL. I enjoy learning new technologies and improving my coding skills through hands-on projects.
       </p>
     </section>
     

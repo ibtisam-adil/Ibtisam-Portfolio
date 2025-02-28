@@ -238,6 +238,10 @@ nav {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+    .c-s-contact {
+        display: none;
+    }
     
     
 }

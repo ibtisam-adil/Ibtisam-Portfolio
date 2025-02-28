@@ -25,12 +25,12 @@ const Resume = () => {
 
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">University of Gujrat</h4>
+          <h4 className="h4 timeline-item-title">Uppsala University</h4>
 
-          <span>2019 -- 2023</span>
+          <span>2024 -- Present</span>
 
           <p className="timeline-text">
-            Bachelors of Information Technology
+          Bachelor in game design and programming
           </p>
 
         </li>
@@ -55,35 +55,38 @@ const Resume = () => {
 
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">Software Engineer</h4>
+          <h4 className="h4 timeline-item-title">Cryptocurrency Trading</h4>
 
-          <span>Twinspider</span>
-          <span>2024/08 — Present</span>
+          <span>Self-Employed</span>
+          <span>2022/01 — Present</span>
 
-          <ol className="timeline-text" >
-            <li>Led a team in developing web applications using Ruby on Rails, React.js, and MySQL</li>
-            <li>Built and optimized RESTful APIs and database queries, improving performance by 30%</li>
-            <li>Integrated React with Rails for dynamic, responsive user interfaces</li>
-            <li>Ensured code quality and timely delivery through code reviews and best practices</li>
-            <li>Managed client communications, gathering requirements and providing technical solutions</li>
-            <li>Resolved technical challenges and supported team members in meeting project goals</li>
-          </ol>
+          <ol className="timeline-text">
+  <li>Executed high-frequency cryptocurrency trades using algorithmic strategies</li>
+  <li>Developed and optimized trading bots using Python and Node.js for automated execution</li>
+  <li>Analyzed market trends and blockchain data to identify profitable trading opportunities</li>
+  <li>Managed risk through portfolio diversification, stop-loss strategies, and real-time monitoring</li>
+  <li>Utilized APIs from Binance, Coinbase, and other exchanges for seamless trade execution</li>
+  <li>Kept up-to-date with crypto regulations, DeFi protocols, and emerging blockchain technologies</li>
+</ol>
 
 
         </li>
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">Fullstack Developer</h4>
+          <h4 className="h4 timeline-item-title">Front End Developer</h4>
 
-          <span>BOSON Studio</span>
-          <span>2024/02 — 2024/08</span>
+          <span>Freelance</span>
+          <span>2023/09 — Present</span>
 
-          <ul className="timeline-text">
-            <li>Developed web applications using Vue.js, Laravel, and MySQL</li>
-            <li>Designed RESTful APIs with Laravel to enable smooth frontend-backend communication</li>
-            <li>Optimized MySQL queries, boosting performance by 40%</li>
-            <li>Collaborated with the team to resolve technical issues and meet project deadlines</li>
-          </ul>
+          <ol className="timeline-text">
+  <li>Designed and developed responsive web applications using React.js and Next.js</li>
+  <li>Implemented dynamic UI components with Tailwind CSS and Material UI for a seamless user experience</li>
+  <li>Optimized web performance, improving load times and accessibility scores</li>
+  <li>Integrated third-party APIs and backend services to enhance application functionality</li>
+  <li>Collaborated with clients to gather requirements and deliver custom front-end solutions</li>
+  <li>Ensured code quality through best practices, version control (Git), and thorough testing</li>
+</ol>
+
 
 
         </li>
@@ -92,16 +95,13 @@ const Resume = () => {
 
           <h4 className="h4 timeline-item-title">Intern</h4>
 
-          <span>2023/10 — 2024/01</span>
+          <span>2023/05 — 2023/09</span>
 
           <ul className="timeline-text">
-            <li>Utilized HTML, CSS, PHP & JavaScript to design and implement website layouts, backend, and data
-              storage through
-              MySQL</li>
+            <li>Utilized HTML, CSS, & JavaScript to design and implement website layouts</li>
             <li>Collaborated with a team of designers, testers, and developers to create visually appealing and
               user-friendly web
               apps for clients</li>
-            <li>Contributed to Role & Permission website, Gold Shop, POS, and many more projects</li>
           </ul>
 
 

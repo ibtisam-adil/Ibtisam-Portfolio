@@ -1,5 +1,6 @@
 import { IonIcon } from '@ionic/react';
 import { mailOutline, phonePortraitOutline, logoLinkedin, locationOutline, chevronDown, logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
+import profile from '../../assets/images/profile.png';
 
 import './layout.css';
 import { Outlet } from 'react-router-dom';
@@ -18,7 +19,7 @@ const Layout = () => {
         <div className="sidebar-info flex gap-6 items-center">
 
           <figure className="avatar-box">
-            <img className="rounded-4xl" src="../../src/assets/passportsize.jpg" alt="Touseeq Zulfiqar" width="80" />
+            <img className="rounded-4xl" src={profile} alt="Touseeq Zulfiqar" width="80" />
           </figure>
 
           <div className="info-content flex flex-col gap-4">
@@ -26,7 +27,7 @@ const Layout = () => {
 
             <p className="title bg-[#2b2b2c] text-white rounded-xl text-lg">Software Engineer</p>
           </div>
-          <span className='cheveron c-s-contact'>Show Contacts</span>
+          <span className='cheveron c-s-contact' onClick={cheveron}>Show Contacts</span>
 
           <IonIcon icon={chevronDown} onClick={cheveron} className="cheveron" />
 
@@ -49,7 +50,7 @@ const Layout = () => {
               <div className="contact-info">
                 <p className="contact-title text-lg">Email</p>
 
-                <a href="mailto:touseeqzulfiqar@gmail.com" className="contact-link text-xl">touseeqzulfiqar@gmail.com</a>
+                <a href="mailto:touseeqzulfiqar@gmail.com" className="contact-link text-xl">ibtisamadil273@gmail.com</a>
               </div>
 
             </li>
@@ -64,7 +65,7 @@ const Layout = () => {
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
 
-                <a href="tel:+923026576657" className="contact-link">+92 3026576657</a>
+                <a href="tel:+923026576657" className="contact-link">+46 764325948</a>
               </div>
 
             </li>
@@ -78,7 +79,7 @@ const Layout = () => {
 
               <div className="contact-info">
                 <p className="contact-title">linkedin</p>
-                <a href="https://www.linkedin.com/in/touseeq-zulfiqar-521510200/" className="contact-link">touseeqzulfiqar</a>
+                <a href="https://www.linkedin.com/in/touseeq-zulfiqar-521510200/" className="contact-link">ibtisamadil</a>
               </div>
 
             </li>
