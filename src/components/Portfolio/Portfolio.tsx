@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { SetStateAction, useState } from 'react';
 import './portfolio.css';
 import img9 from '../../assets/images/project-9.png';
 import img8 from '../../assets/images/project-8.jpg';
@@ -29,7 +29,7 @@ const Portfolio = () => {
   ];
 
   // Function to handle category selection
-  const handleCategoryClick = (category) => {
+  const handleCategoryClick = (category: SetStateAction<string>) => {
     setSelectedCategory(category);
     filterSelect();
   };

@@ -3,6 +3,9 @@ import './about.css';
 import { MagicCard } from '../magicui/magic-card';
 import img1 from '../../assets/images/icon-design.svg';
 import img2 from '../../assets/images/flutter.png';
+import avatar1 from '../../assets/images/github.png';
+import avatar2 from '../../assets/images/nodejs.png';
+import avatar3 from '../../assets/images/react.png';
 
 import { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
@@ -103,25 +106,22 @@ const About = () => {
     </section>
     <section className="testimonials">
 
-          <h3 className="h3 testimonials-title">Testimonials</h3>
+          <h3 className="h3 testimonials-title">Stack</h3>
 
           <ul className="testimonials-list has-scrollbar">
 
             <li className="testimonials-item">
-              <div className="content-card" data-testimonials-item>
+              <div id='test-card' className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Usman Ibrahim" width="60" data-testimonials-avatar />
+                  <img src={avatar1} alt="Usman Ibrahim" width="60" data-testimonials-avatar />
                 </figure>
 
-                <h4 className="h4 testimonials-item-title" data-testimonials-title>Usman Ibrahim</h4>
+                <h4 className="h4 testimonials-item-title" data-testimonials-title>Github</h4>
 
                 <div className="testimonials-text" data-testimonials-text>
                   <p>
-                    Touseeq was hired to create a Service provider web app for my company. We were very pleased with the
-                    work done. He has a
-                    lot of experience
-                    and is very concerned about the needs of clients
+                  GitHub is a cloud-based platform for version control and collaboration using Git, enabling developers to manage and share code efficiently.
                   </p>
                 </div>
 
@@ -129,18 +129,17 @@ const About = () => {
             </li>
 
             <li className="testimonials-item">
-              <div className="content-card" data-testimonials-item>
+              <div id='test-card' className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Ahmad Raza" width="60" data-testimonials-avatar />
+                  <img src={avatar2} alt="Ahmad Raza" width="60" data-testimonials-avatar />
                 </figure>
 
-                <h4 className="h4 testimonials-item-title" data-testimonials-title>Ahmad Raza</h4>
+                <h4 className="h4 testimonials-item-title" data-testimonials-title>Node.js</h4>
 
                 <div className="testimonials-text" data-testimonials-text>
                   <p>
-                    We were very pleased with the control panel Touseeq created. He has extensive experience.
-                    and is very concerned about the needs of client. 
+                  Node.js is a runtime environment that allows JavaScript to run on the server side, enabling scalable and high-performance applications. 
                   </p>
                 </div>
 
@@ -148,18 +147,17 @@ const About = () => {
             </li>
 
             <li className="testimonials-item">
-              <div className="content-card" data-testimonials-item>
+              <div id='test-card' className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Saqlain" width="60" data-testimonials-avatar />
+                  <img src={avatar3} alt="Saqlain" width="60" data-testimonials-avatar />
                 </figure>
 
-                <h4 className="h4 testimonials-item-title" data-testimonials-title>Mr. Saqlain</h4>
+                <h4 className="h4 testimonials-item-title" data-testimonials-title>React</h4>
 
                 <div className="testimonials-text" data-testimonials-text>
                   <p>
-                    We hired Touseeq to develop a Gold shop, and his work exceeded our expectations. He possesses a wealth of experience and
-                    demonstrates a keen understanding of client needs, ensuring every detail is addressed with professionalism and care.
+                  React is a JavaScript library for building fast and interactive user interfaces using a component-based architecture
                   </p>
                 </div>
 
