@@ -594,8 +594,6 @@ input, textarea {
    */
 
 
-  .filter-select-box { display: none; }
-
   .filter-list {
     display: flex;
     justify-content: flex-start;
