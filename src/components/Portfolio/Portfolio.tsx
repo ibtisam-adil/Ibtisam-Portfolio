@@ -4,10 +4,10 @@ import img9 from '../../assets/images/project-9.png';
 import img8 from '../../assets/images/project-8.jpg';
 import img7 from '../../assets/images/project-7.png';
 import img6 from '../../assets/images/project-6.png';
-import img5 from '../../assets/images/project-5.png';
-import img4 from '../../assets/images/project-4.png';
-import img3 from '../../assets/images/project-3.jpg';
-import img2 from '../../assets/images/project-2.png';
+import img5 from '../../assets/images/img4.gif';
+import img3 from '../../assets/images/img3.png';
+import img4 from '../../assets/images/img5.png';
+import img2 from '../../assets/images/img2.png';
 import img1 from '../../assets/images/project1.png';
 import Navbar from '../Navbar/Navbar';
 import { IonIcon } from '@ionic/react';
@@ -17,10 +17,10 @@ const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const projectsData = [
-    { id: 1, title: 'Finance', category: 'web development', image: img1 },
+    { id: 1, title: 'Pokemon', category: 'web development', image: img1 },
     { id: 2, title: 'Orizon', category: 'web development', image: img2 },
-    { id: 3, title: 'Fundo', category: 'web design', image: img3 },
-    { id: 4, title: 'Brawlhalla', category: 'applications', image: img4 },
+    { id: 3, title: 'Weather 360', category: 'web development', image: img3 },
+    { id: 4, title: 'Book Store', category: 'web development', image: img4 },
     { id: 5, title: 'DSM.', category: 'web design', image: img5 },
     { id: 6, title: 'MetaSpark', category: 'web design', image: img6 },
     { id: 7, title: 'Summary', category: 'web development', image: img7 },

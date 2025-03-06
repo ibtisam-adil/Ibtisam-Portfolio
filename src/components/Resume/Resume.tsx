@@ -55,36 +55,32 @@ const Resume = () => {
 
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">Cryptocurrency Trading</h4>
+          <h4 className="h4 timeline-item-title">Game Development & Programming</h4>
 
           <span>Self-Employed</span>
-          <span>2022/01 — Present</span>
+          <span>2023/01 — Present</span>
 
           <ol className="timeline-text">
-  <li>Executed high-frequency cryptocurrency trades using algorithmic strategies</li>
-  <li>Developed and optimized trading bots using Python and Node.js for automated execution</li>
-  <li>Analyzed market trends and blockchain data to identify profitable trading opportunities</li>
-  <li>Managed risk through portfolio diversification, stop-loss strategies, and real-time monitoring</li>
-  <li>Utilized APIs from Binance, Coinbase, and other exchanges for seamless trade execution</li>
-  <li>Kept up-to-date with crypto regulations, DeFi protocols, and emerging blockchain technologies</li>
+          <li>Developed games using Unity and C# for various platforms</li>
+    <li>Implemented gameplay mechanics, AI, and UI systems in Unity</li>
+    <li>Utilized Git and GitHub for version control and collaborative development</li>
+    <li>Wrote and optimized scripts using Visual Studio as the primary code editor</li>
+    <li>Worked with asset pipelines, shaders, and physics systems for enhanced game performance</li>
+    <li>Kept up-to-date with industry trends, game design principles, and emerging technologies</li>
 </ol>
 
 
         </li>
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">Front End Developer</h4>
+          <h4 className="h4 timeline-item-title">Game & Level Design</h4>
 
           <span>Freelance</span>
           <span>2023/09 — Present</span>
 
           <ol className="timeline-text">
-  <li>Designed and developed responsive web applications using React.js and Next.js</li>
-  <li>Implemented dynamic UI components with Tailwind CSS and Material UI for a seamless user experience</li>
-  <li>Optimized web performance, improving load times and accessibility scores</li>
-  <li>Integrated third-party APIs and backend services to enhance application functionality</li>
-  <li>Collaborated with clients to gather requirements and deliver custom front-end solutions</li>
-  <li>Ensured code quality through best practices, version control (Git), and thorough testing</li>
+          <li>Designed and built immersive game levels using Unity ProBuilder</li>
+          <li>Created engaging gameplay experiences through level pacing and player progression</li>
 </ol>
 
 
@@ -93,19 +89,31 @@ const Resume = () => {
 
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">Intern</h4>
+          <h4 className="h4 timeline-item-title">Art & Animation (for Integration & Prototyping)</h4>
 
           <span>2023/05 — 2023/09</span>
 
           <ul className="timeline-text">
-            <li>Utilized HTML, CSS, & JavaScript to design and implement website layouts</li>
-            <li>Collaborated with a team of designers, testers, and developers to create visually appealing and
-              user-friendly web
-              apps for clients</li>
+          <li>Created 2D art assets using Krita and PixelArt for game prototypes</li>
+          <li>Designed sprites, UI elements, and concept art for rapid iteration</li>
           </ul>
 
 
         </li>
+        <li className="timeline-item">
+
+  <h4 className="h4 timeline-item-title">Project Management & Collaboration</h4>
+
+  <span>Independent Developer</span>
+  <span>Year Started — Present</span>
+
+  <ol className="timeline-text">
+    <li>Managed game development tasks using Trello and Jira for efficient workflow</li>
+  <li>Planned project timelines, milestones, and sprint cycles for structured progress</li>
+  </ol>
+
+</li>
+
 
       </ol>
 
